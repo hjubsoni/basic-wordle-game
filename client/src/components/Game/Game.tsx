@@ -25,7 +25,7 @@ function Game() {
   const handleSubmitGuess = (guess: string) => {
     setGuessedWords([...guessedWords, guess]);
   };
-  console.log(correctWord);
+  
 
   return (
     <main className="flex items-center justify-center flex-col gap-8 p-4 max-w-sm  mx-auto">
