@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Path: client\src\index.css */
+  html,
+  body {
+    @apply h-full;
+  }
+}
